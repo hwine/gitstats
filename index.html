@@ -10,15 +10,11 @@
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script type="text/template" id="health_report">
+    </script>
     <script type="text/template" id="graph_template">
       <h3><a name="<%= name %>" class="anchor" href="#<%= name %>"><span class="octicon octicon-link"></span></a><%= title %></h3>
         <img src="<%= url %>" />
-    </script>
-    <script type="text/template" id="health_report">
-      <h3><a name="health-report" class="anchor"
-              href="#health-report"><span class="octicon octicon-link"></span></a>Health Report</h3>
-            <img width="586px" height="308px"
-            src="https://graphite-scl3.mozilla.org/render/?width=586&height=308&_salt=1420764233.108&yAxisSide=right&title=git%201%20mem%20used%20%26%20load&from=-16hours&xFormat=%25a%20%25H%3A%25M&tz=UTC&target=secondYAxis(hosts.git1_dmz_scl3_mozilla_com.load.load.shortterm)&target=hosts.git1_dmz_scl3_mozilla_com.memory.memory.used.value&target=hosts.git1_dmz_scl3_mozilla_com.swap.swap.used.value&target=secondYAxis(averageSeries(hosts.git*_dmz_scl3_mozilla_com.cpu.*.cpu.idle.value))" />
     </script>
   </head>
   <body>
